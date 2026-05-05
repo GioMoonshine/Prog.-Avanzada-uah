@@ -74,7 +74,7 @@ impl Grafo {
 
         for fila in matriz {
             for val in fila {
-                print!("{}", val);
+                print!("{} ", val);
             }
             println!();
         }
